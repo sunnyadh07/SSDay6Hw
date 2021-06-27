@@ -1,10 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        user newUser = new user("Robin", "McDonald", "roobin", "strongPW");
+        User newUser = new User("Robin", "McDonald", "roobin", "strongPW");
         System.out.println(newUser);
 
-        user oldUser = new user("Ben", "James", "benjames", "benjamin");
+        User oldUser = new User("Ben", "James", "benjames", "benjamin");
         System.out.println(oldUser);
 
+        User unknownUser = new User();
+        System.out.println(unknownUser);
+
     }
+
 }
